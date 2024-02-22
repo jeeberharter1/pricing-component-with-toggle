@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    
+    <title>Pricing</title>
+</head>
+<body>
+    <main class="pricing">
+        <h1 class="pricing__title">Our Pricing</h1>
+
+        <div class="slider__container">
+            <span>Annually</span>
+            <label class="switch">
+                <input type="checkbox" id="price-switch">
+                <span class="slider round"></span>
+            </label>
+            <span>Monthly</span>
+        </div>
+
+        <div class="pricing__cards">
+            <div class="pricing__package">
+                <h3 class="pricing__subtitle">Basic</h3>
+    
+                <div class="pricing__price">
+                    <span class="dollar">$</span><span class="basic__price">199.99</span>
+                </div>
+    
+                <hr>
+                <p class="pricing__list__item">500 GB Storage</p>
+                <hr>
+                <p class="pricing__list__item">2 Users Allowed</p>
+                <hr>
+                <p class="pricing__list__item">Send up to 3 GB</p>
+                <hr>
+                
+                <button class="pricing__button">Learn More</button>
+            </div>
+    
+            <div class="pricing__package package__inverted">
+                <h3 class="pricing__subtitle">Professional</h3>
+    
+                <div class="pricing__price">
+                    <span class="dollar">$</span><span class="professional__price">249.99</span>
+                </div>
+    
+                <hr>
+                <p class="pricing__list__item">1 TB Storage</p>
+                <hr>
+                <p class="pricing__list__item">5 Users Allowed</p>
+                <hr>
+                <p class="pricing__list__item">Send up to 10 GB</p>
+                <hr>
+                
+                <button class="pricing__button">Learn More</button>
+            </div>
+    
+            <div class="pricing__package">
+                <h3 class="pricing__subtitle">Master</h3>
+    
+                <div class="pricing__price">
+                    <span class="dollar">$</span><span class="master__price">399.99</span>
+                </div>
+    
+                <hr>
+                <p class="pricing__list__item">2 TB Storage</p>
+                <hr>
+                <p class="pricing__list__item">10 Users Allowed</p>
+                <hr>
+                <p class="pricing__list__item">Send up to 20 GB</p>
+                <hr>
+                
+                <button class="pricing__button">Learn More</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
